@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<students>
+    <Employee>
+        <id>5</id>
+        <name>Nguyễn Việt Hoàng</name>
+        <age>30</age>
+        <address>Hải Dương</address>
+        <position>Nhân Viên</position>
+        <salary>25000000</salary>
+        <department>Kinh doanh</department>
+        <exp>4</exp>
+    </Employee>
+    <Employee>
+        <id>3</id>
+        <name>Nguyễn  Văn A</name>
+        <age>34</age>
+        <address>Hải Phòng</address>
+        <position>Nhân Viên</position>
+        <salary>30000000</salary>
+        <department>Kinh doanh</department>
+        <exp>6</exp>
+    </Employee>
+    <Employee>
+        <id>4</id>
+        <name>Hoàng Văn Ba</name>
+        <age>25</age>
+        <address>Hà Nội</address>
+        <position>Trưởng phòng</position>
+        <salary>40000000</salary>
+        <department>Kinh doanh</department>
+        <exp>3</exp>
+    </Employee>
+    <Employee>
+        <id>2</id>
+        <name>Phan Huy Dương</name>
+        <age>20</age>
+        <address>Hải Dương</address>
+        <position>Giám đốc</position>
+        <salary>120000000</salary>
+        <department>Nhân sự</department>
+        <exp>1</exp>
+    </Employee>
+    <Employee>
+        <id>1</id>
+        <name>Vương Xuân Kiên</name>
+        <age>21</age>
+        <address>Hà Nội</address>
+        <position>Giám đốc</position>
+        <salary>125000000</salary>
+        <department>Kế hoạch</department>
+        <exp>1</exp>
+    </Employee>
+    <Employee>
+        <id>6</id>
+        <name>Hoàng An</name>
+        <age>28</age>
+        <address>Hải Dương</address>
+        <position>Trưởng phòng</position>
+        <salary>50000000</salary>
+        <department>Nhân sự</department>
+        <exp>3</exp>
+    </Employee>
+    <Employee>
+        <id>7</id>
+        <name>Biển</name>
+        <age>20</age>
+        <address>Hoàng Sa</address>
+        <position>Giám đốc</position>
+        <salary>60000000</salary>
+        <department>Nhân sự</department>
+        <exp>6</exp>
+    </Employee>
+</students>
