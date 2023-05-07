@@ -45,7 +45,7 @@
         <name>Vương Xuân Kiên</name>
         <age>21</age>
         <address>Hà Nội</address>
-        <position>Giám đốc</position>
+        <position>Trưởng phòng</position>
         <salary>125000000</salary>
         <department>Kế hoạch</department>
         <exp>1</exp>
@@ -55,19 +55,9 @@
         <name>Hoàng An</name>
         <age>28</age>
         <address>Hải Dương</address>
-        <position>Trưởng phòng</position>
+        <position>Nhân viên</position>
         <salary>50000000</salary>
         <department>Nhân sự</department>
         <exp>3</exp>
-    </Employee>
-    <Employee>
-        <id>7</id>
-        <name>Biển</name>
-        <age>20</age>
-        <address>Hoàng Sa</address>
-        <position>Giám đốc</position>
-        <salary>70000000</salary>
-        <department>Nhân sự</department>
-        <exp>7</exp>
     </Employee>
 </students>

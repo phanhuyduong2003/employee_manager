@@ -2,8 +2,9 @@ package vn.viettuts.qlsv.entity;
 
 import java.io.Serializable;
 import java.util.Locale;
-import java.text.NumberFormat;
-import java.text.ParseException;
+//import java.text.NumberFormat;
+//import java.text.ParseException;
+import java.text.*;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -84,7 +85,7 @@ public class Employee implements Serializable {
         this.salary = salary;
     }
     public String getFormattedSalary() {
-        NumberFormat nf = NumberFormat.getInstance(Locale.getDefault());
+        NumberFormat nf = NumberFormat.getNumberInstance(Locale.US);
         return nf.format(salary);
     }
     public String getDepartment() {

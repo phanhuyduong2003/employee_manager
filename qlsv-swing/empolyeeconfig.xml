@@ -2,8 +2,8 @@
 <launch4jConfig>
   <dontWrapJar>false</dontWrapJar>
   <headerType>gui</headerType>
-  <jar>E:\Phenikaa\OOP\qlnv\qlsv-swing\target\qlsv-swing-0.0.1-SNAPSHOT.jar</jar>
-  <outfile>E:\Phenikaa\OOP\qlnv\qlsv-swing\employee.exe</outfile>
+  <jar>C:\Users\nhimz\OneDrive\Máy tính\Downloads\qlsv-swing\qlsv-swing\target\qlsv-swing-0.0.1-SNAPSHOT-jar-with-dependencies.jar</jar>
+  <outfile>C:\Users\nhimz\OneDrive\Máy tính\Downloads\qlsv-swing\qlsv-swing\employee.exe</outfile>
   <errTitle></errTitle>
   <cmdLine></cmdLine>
   <chdir>.</chdir>

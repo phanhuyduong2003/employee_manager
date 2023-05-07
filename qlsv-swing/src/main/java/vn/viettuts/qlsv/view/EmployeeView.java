@@ -319,7 +319,8 @@ public class EmployeeView extends JFrame implements ActionListener, ListSelectio
             salary = salary.replaceAll(",", "");
             // Integer.parseInt(salary) để chuyển dữ liệu tiền lương về kiểu Integer
             // Integer.toString để chuyển dữ liệu tiền lương về kiểu String rồi đưa vào trường salaryField
-            salaryField.setText(Integer.toString(Integer.parseInt(salary)));
+//            salaryField.setText(Integer.toString(Integer.parseInt(salary)));
+salaryField.setText(Integer.toString(Integer.parseInt(salary)));
             expField.setText(EmployeeTable.getModel().getValueAt(row, 7).toString());
             // enable Edit and Delete buttons
             editEmployeeBtn.setEnabled(true);
@@ -377,7 +378,7 @@ public class EmployeeView extends JFrame implements ActionListener, ListSelectio
      */
     public Employee getEmployeeInfo() {
         // validate student
-        if (!validateName() || !validateAge() || !validateAddress() || !validateDepartment() || !validateExp()) {
+        if (!validateName() || !validateAge() || !validateAddress() || !validateDepartment() || !validateExp() || !validateSalary()) {
             return null;
         }
         try {
